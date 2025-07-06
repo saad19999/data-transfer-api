@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Use environment variable for API Key for security
-API_KEY = os.environ.get("API_KEY", "your_default_api_key_here")
+API_KEY = os.environ.get("12312123", "https://web-production-5d95.up.railway.app/")
 
 # Temporary storage for the last sent data
 # This will be lost if the app restarts (e.g., during deployment, scaling, or maintenance)
